@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXFileReference section */
+		52169D8B2C246A8D008BB9C5 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		52169D8C2C246A8D008BB9C5 /* hero_screens_group_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero_screens_group_dark.png; sourceTree = "<group>"; };
+		52169D8D2C246A8D008BB9C5 /* favicon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favicon_icon.png; sourceTree = "<group>"; };
+		52169D8E2C246A8D008BB9C5 /* hero_screens_group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero_screens_group.png; sourceTree = "<group>"; };
+		52169D8F2C246A8D008BB9C5 /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		5235BE2F2A8A633A001D797B /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		52A4333F2B2427F5008588BA /* apple_touch_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_touch_icon.png; sourceTree = "<group>"; };
+		52A433402B2427F5008588BA /* open_graph_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_graph_logo.png; sourceTree = "<group>"; };
+		52A8AF152B2AC5F500DAAE5F /* app-ads.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "app-ads.txt"; sourceTree = "<group>"; };
+		52B7EF522B6CA92200153939 /* sitemap.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = sitemap.xml; sourceTree = "<group>"; };
+		52C734F82B354A0B00878863 /* download_on_the_app_store_badge_black.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = download_on_the_app_store_badge_black.svg; sourceTree = "<group>"; };
+		52C734F92B354A0B00878863 /* download_on_the_app_store_badge_white.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = download_on_the_app_store_badge_white.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5235BE282A8A62AC001D797B = {
+			isa = PBXGroup;
+			children = (
+				5235BE2F2A8A633A001D797B /* index.html */,
+				52169D8F2C246A8D008BB9C5 /* privacy.html */,
+				52169D8B2C246A8D008BB9C5 /* styles.css */,
+				52169D8D2C246A8D008BB9C5 /* favicon_icon.png */,
+				52169D8E2C246A8D008BB9C5 /* hero_screens_group.png */,
+				52169D8C2C246A8D008BB9C5 /* hero_screens_group_dark.png */,
+				52A4333F2B2427F5008588BA /* apple_touch_icon.png */,
+				52A433402B2427F5008588BA /* open_graph_logo.png */,
+				52C734F82B354A0B00878863 /* download_on_the_app_store_badge_black.svg */,
+				52C734F92B354A0B00878863 /* download_on_the_app_store_badge_white.svg */,
+				52B7EF522B6CA92200153939 /* sitemap.xml */,
+				52A8AF152B2AC5F500DAAE5F /* app-ads.txt */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		5235BE292A8A62AC001D797B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = 5235BE2C2A8A62AC001D797B /* Build configuration list for PBXProject "AvoidCollisionWebsite" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5235BE282A8A62AC001D797B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5235BE2D2A8A62AC001D797B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		5235BE2E2A8A62AC001D797B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5235BE2C2A8A62AC001D797B /* Build configuration list for PBXProject "AvoidCollisionWebsite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5235BE2D2A8A62AC001D797B /* Debug */,
+				5235BE2E2A8A62AC001D797B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5235BE292A8A62AC001D797B /* Project object */;
+}

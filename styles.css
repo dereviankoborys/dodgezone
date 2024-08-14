@@ -1,0 +1,135 @@
+/* Base Styles */
+body {
+  font-family: system-ui;
+  text-align: center;
+  background: #ffffff;
+}
+
+h1,
+h2,
+p {
+  color: #000000;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+h3 {
+  color: #3c3c43;
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+p {
+  text-align: start;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+/* index.html */
+.download-on-the-app-store-badge img {
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+a,
+.footer a {
+  color: #007aff;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex: none;
+}
+
+.footer a {
+  font-weight: 300;
+  font-size: 13px;
+  border-right: 1px solid #aeaeb2;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.footer a:last-child {
+  border-right: none;
+}
+
+/* privacy.html */
+.privacy-header,
+.privacy-content-section {
+  text-align: start;
+}
+
+/* Media Queries */
+
+/* Landscape Orientation */
+@media (orientation: landscape) {
+  body {
+    padding-inline: 25%;
+    padding-top: 25px;
+  }
+
+  p {
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+}
+
+/* Portrait Orientation */
+@media (orientation: portrait) {
+  body {
+    padding: 10px;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #000000;
+  }
+
+  h1,
+  h2,
+  p {
+    color: #ffffff;
+  }
+  
+  h3 {
+    color: #ebebf5;
+    opacity: 0.6;
+  }
+
+  a,
+  .footer a {
+    color: #0a84ff;
+  }
+
+  .footer a {
+    border-right: 1px solid #636366;
+  }
+}
